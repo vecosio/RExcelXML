@@ -1,7 +1,7 @@
 Package: RExcelXML
 Version: 0.5-0
-Title:  Tools for working with Excel XML documents
-Description:  This is a collection of some general
+Title: Tools for working with Excel XML documents
+Description: This is a collection of some general
   and quite simple facilities for working with Excel spreadsheets and 
   workbooks. The ideas and some of the code should generalize to 
   OpenOffice and other spreadsheets. 
@@ -13,13 +13,12 @@ Description:  This is a collection of some general
   We have developed functionality similar to this for Word and Excel
   using DCOM and the RDCOMClient facilities.
 Imports: XML, Rcompression, methods
-XDepends: methods 
+XDepends: methods
 Depends: ROOXML
 Author: Duncan Temple Lang
 Maintainer: Duncan Temple Lang <duncan@wald.ucdavis.edu>
 License: BSD
-Collate: classes.R cellValues.R cellStyles.R hyperlinks.R images.R readXLSX.R makeStyles.R addImage.R
-         update.R columns.R addChart.R addSheet.R
-
-
-
+Collate: classes.R cellValues.R cellStyles.R hyperlinks.R
+       images.R readXLSX.R makeStyles.R addImage.R update.R
+       columns.R addChart.R addSheet.R
+Packaged: 2012-06-12 13:09:12 UTC; duncan
